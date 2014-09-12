@@ -10,10 +10,22 @@
 
 #import "DetailViewController.h"
 #import "Run.h"
+#import <CoreLocation/CoreLocation.h>
+#import "MathController.h"
+#import "Location.h"
+
+
 
 static NSString * const detailSegueName = @"RunDetails";
 
-@interface NewRunViewController () <UIActionSheetDelegate>
+@interface NewRunViewController () <UIActionSheetDelegate, CLLocationManagerDelegate>
+
+
+@property int seconds;
+@property float distance;
+@property (nonatomic, strong) CLLocationManager *locationManager;
+@property (nonatomic, strong) NSMutableArray *locations;
+@property (nonatomic, strong) NSTimer *timer;
 
 @property (nonatomic, strong) Run *run;
 
@@ -22,7 +34,7 @@ static NSString * const detailSegueName = @"RunDetails";
 @property (nonatomic, weak) IBOutlet UILabel *distLabel;
 @property (nonatomic, weak) IBOutlet UILabel *paceLabel;
 @property (nonatomic, weak) IBOutlet UIButton *startButton;
-@property (nonatomic, weak) IBOutlet UIButton *stopButton;
+@property (weak, nonatomic) IBOutlet UIButton *stopButton;
 
 @end
 
@@ -48,7 +60,7 @@ static NSString * const detailSegueName = @"RunDetails";
     self.timeLabel.hidden = YES;
     self.distLabel.hidden = YES;
     self.paceLabel.hidden = YES;
-    self.stopButton.hidden = YES;
+    self.stopButton.hidden = NO;
 }
 
 -(IBAction)startPressed:(id)sender

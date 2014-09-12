@@ -113,7 +113,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="stopPressed:" destination="1fm-D3-fPA" eventType="touchUpInside" id="IiO-bg-cdE"/>
+                                    <action selector="stopPressed:" destination="1fm-D3-fPA" eventType="touchUpInside" id="RPL-bQ-fZW"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFD-Zu-0Eg">
@@ -146,7 +146,7 @@
                         <outlet property="paceLabel" destination="Gkd-ZL-Aio" id="kdD-l4-Hjs"/>
                         <outlet property="promptLabel" destination="Mcp-72-YX3" id="iWT-Hr-Q0e"/>
                         <outlet property="startButton" destination="KyA-q3-nLC" id="9WY-lz-fpH"/>
-                        <outlet property="stopButton" destination="tyw-N5-zoJ" id="eF1-VK-Tmw"/>
+                        <outlet property="stopButton" destination="tyw-N5-zoJ" id="ddR-n2-mYg"/>
                         <outlet property="timeLabel" destination="SFD-Zu-0Eg" id="PhM-h4-EFk"/>
                         <segue destination="Ah7-4n-0Wa" kind="push" identifier="runDetails" id="Nne-Zq-UfZ"/>
                     </connections>
