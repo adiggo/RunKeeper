@@ -15,7 +15,6 @@
 		2D829A3C19BA5861006F76FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D829A3B19BA5861006F76FD /* main.m */; };
 		2D829A4019BA5861006F76FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D829A3F19BA5861006F76FD /* AppDelegate.m */; };
 		2D829A4319BA5861006F76FD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D829A4119BA5861006F76FD /* Main_iPhone.storyboard */; };
-		2D829A4619BA5861006F76FD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D829A4419BA5861006F76FD /* Main_iPad.storyboard */; };
 		2D829A4919BA5861006F76FD /* RunKeeper3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D829A4719BA5861006F76FD /* RunKeeper3.xcdatamodeld */; };
 		2D829A4F19BA5861006F76FD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D829A4E19BA5861006F76FD /* DetailViewController.m */; };
 		2D829A5119BA5861006F76FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D829A5019BA5861006F76FD /* Images.xcassets */; };
@@ -25,8 +24,6 @@
 		2D829A5B19BA5861006F76FD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D829A3319BA5861006F76FD /* CoreData.framework */; };
 		2D829A6319BA5861006F76FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D829A6119BA5861006F76FD /* InfoPlist.strings */; };
 		2D829A6519BA5861006F76FD /* RunKeeper3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D829A6419BA5861006F76FD /* RunKeeper3Tests.m */; };
-		2D829A7019BA5A23006F76FD /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D829A6F19BA5A23006F76FD /* Location.m */; };
-		2D829A7319BA5A24006F76FD /* Run.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D829A7219BA5A24006F76FD /* Run.m */; };
 		2D829A7519BA5A59006F76FD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D829A7419BA5A59006F76FD /* MapKit.framework */; };
 		2D829AA219BA5CF0006F76FD /* ariel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D829A7719BA5CF0006F76FD /* ariel.jpg */; };
 		2D829AA319BA5CF0006F76FD /* asteroid_belt.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D829A7819BA5CF0006F76FD /* asteroid_belt.png */; };
@@ -74,6 +71,8 @@
 		2D829ACF19BA81B5006F76FD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D829ACE19BA81B5006F76FD /* HomeViewController.m */; };
 		2D829AD219BA83CD006F76FD /* NewRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D829AD119BA83CD006F76FD /* NewRunViewController.m */; };
 		2D829AD519BFD4F1006F76FD /* MathController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D829AD419BFD4F1006F76FD /* MathController.m */; };
+		2D829AD819C51F34006F76FD /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D829AD719C51F34006F76FD /* Location.m */; };
+		2D829ADB19C51F35006F76FD /* Run.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D829ADA19C51F35006F76FD /* Run.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,7 +98,6 @@
 		2D829A3E19BA5861006F76FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2D829A3F19BA5861006F76FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2D829A4219BA5861006F76FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		2D829A4519BA5861006F76FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		2D829A4819BA5861006F76FD /* RunKeeper3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RunKeeper3.xcdatamodel; sourceTree = "<group>"; };
 		2D829A4D19BA5861006F76FD /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		2D829A4E19BA5861006F76FD /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
@@ -109,10 +107,6 @@
 		2D829A6019BA5861006F76FD /* RunKeeper3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RunKeeper3Tests-Info.plist"; sourceTree = "<group>"; };
 		2D829A6219BA5861006F76FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2D829A6419BA5861006F76FD /* RunKeeper3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunKeeper3Tests.m; sourceTree = "<group>"; };
-		2D829A6E19BA5A23006F76FD /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
-		2D829A6F19BA5A23006F76FD /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
-		2D829A7119BA5A24006F76FD /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
-		2D829A7219BA5A24006F76FD /* Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run.m; sourceTree = "<group>"; };
 		2D829A7419BA5A59006F76FD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2D829A7719BA5CF0006F76FD /* ariel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ariel.jpg; sourceTree = "<group>"; };
 		2D829A7819BA5CF0006F76FD /* asteroid_belt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroid_belt.png; sourceTree = "<group>"; };
@@ -163,6 +157,10 @@
 		2D829AD119BA83CD006F76FD /* NewRunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRunViewController.m; sourceTree = "<group>"; };
 		2D829AD319BFD4F1006F76FD /* MathController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathController.h; sourceTree = "<group>"; };
 		2D829AD419BFD4F1006F76FD /* MathController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathController.m; sourceTree = "<group>"; };
+		2D829AD619C51F34006F76FD /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		2D829AD719C51F34006F76FD /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		2D829AD919C51F35006F76FD /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
+		2D829ADA19C51F35006F76FD /* Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,17 +233,16 @@
 				2D829A4119BA5861006F76FD /* Main_iPhone.storyboard */,
 				2D829AD319BFD4F1006F76FD /* MathController.h */,
 				2D829AD419BFD4F1006F76FD /* MathController.m */,
-				2D829A4419BA5861006F76FD /* Main_iPad.storyboard */,
 				2D829ACD19BA81B5006F76FD /* HomeViewController.h */,
 				2D829ACE19BA81B5006F76FD /* HomeViewController.m */,
 				2D829A4D19BA5861006F76FD /* DetailViewController.h */,
 				2D829A4E19BA5861006F76FD /* DetailViewController.m */,
 				2D829A5019BA5861006F76FD /* Images.xcassets */,
 				2D829A4719BA5861006F76FD /* RunKeeper3.xcdatamodeld */,
-				2D829A7119BA5A24006F76FD /* Run.h */,
-				2D829A7219BA5A24006F76FD /* Run.m */,
-				2D829A6E19BA5A23006F76FD /* Location.h */,
-				2D829A6F19BA5A23006F76FD /* Location.m */,
+				2D829AD619C51F34006F76FD /* Location.h */,
+				2D829AD719C51F34006F76FD /* Location.m */,
+				2D829AD919C51F35006F76FD /* Run.h */,
+				2D829ADA19C51F35006F76FD /* Run.m */,
 				2D829A3619BA5861006F76FD /* Supporting Files */,
 			);
 			path = RunKeeper3;
@@ -431,7 +428,6 @@
 				2D829ABF19BA5CF0006F76FD /* oberon.jpg in Resources */,
 				2D829AB019BA5CF0006F76FD /* green-btn.png in Resources */,
 				2D829AB419BA5CF0006F76FD /* Icon-Spotlight.png in Resources */,
-				2D829A4619BA5861006F76FD /* Main_iPad.storyboard in Resources */,
 				2D829AB619BA5CF0006F76FD /* interstellar_space.jpg in Resources */,
 				2D829AA819BA5CF0006F76FD /* ceres.jpg in Resources */,
 				2D829AAE19BA5CF0006F76FD /* europa.jpg in Resources */,
@@ -478,12 +474,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D829ADB19C51F35006F76FD /* Run.m in Sources */,
 				2D829A4F19BA5861006F76FD /* DetailViewController.m in Sources */,
-				2D829A7319BA5A24006F76FD /* Run.m in Sources */,
 				2D829AD519BFD4F1006F76FD /* MathController.m in Sources */,
 				2D829A4919BA5861006F76FD /* RunKeeper3.xcdatamodeld in Sources */,
+				2D829AD819C51F34006F76FD /* Location.m in Sources */,
 				2D829A4019BA5861006F76FD /* AppDelegate.m in Sources */,
-				2D829A7019BA5A23006F76FD /* Location.m in Sources */,
 				2D829A3C19BA5861006F76FD /* main.m in Sources */,
 				2D829ACF19BA81B5006F76FD /* HomeViewController.m in Sources */,
 				2D829AD219BA83CD006F76FD /* NewRunViewController.m in Sources */,
@@ -523,14 +519,6 @@
 				2D829A4219BA5861006F76FD /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		2D829A4419BA5861006F76FD /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D829A4519BA5861006F76FD /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		2D829A6119BA5861006F76FD /* InfoPlist.strings */ = {
@@ -701,6 +689,7 @@
 				2D829A6A19BA5861006F76FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D829A6B19BA5861006F76FD /* Build configuration list for PBXNativeTarget "RunKeeper3Tests" */ = {
 			isa = XCConfigurationList;
@@ -709,6 +698,7 @@
 				2D829A6D19BA5861006F76FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
