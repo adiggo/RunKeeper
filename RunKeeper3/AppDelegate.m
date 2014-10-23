@@ -20,6 +20,7 @@
 {
     // Override point for customization after application launch.
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+    [self.window setBackgroundColor :[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]]];
     HomeViewController *controller = (HomeViewController *)navigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
     return YES;

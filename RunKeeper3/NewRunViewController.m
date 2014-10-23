@@ -45,14 +45,14 @@ static NSString * const detailSegueName = @"RunDetails";
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
-    }
+       self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];    }
     return self;
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
+    //self.view.backgroundColor = [UIColor clearColor];
     [self.timer invalidate];
 }
 
@@ -69,6 +69,7 @@ static NSString * const detailSegueName = @"RunDetails";
     self.distLabel.hidden = YES;
     self.paceLabel.hidden = YES;
     self.stopButton.hidden = YES;
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
 }
 
 -(IBAction)startPressed:(id)sender

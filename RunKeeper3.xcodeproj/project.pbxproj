@@ -73,6 +73,7 @@
 		2D829AD519BFD4F1006F76FD /* MathController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D829AD419BFD4F1006F76FD /* MathController.m */; };
 		2D829AD819C51F34006F76FD /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D829AD719C51F34006F76FD /* Location.m */; };
 		2D829ADB19C51F35006F76FD /* Run.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D829ADA19C51F35006F76FD /* Run.m */; };
+		2DD058AB19ECECA800E58BEB /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD058AA19ECECA800E58BEB /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +162,7 @@
 		2D829AD719C51F34006F76FD /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		2D829AD919C51F35006F76FD /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
 		2D829ADA19C51F35006F76FD /* Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run.m; sourceTree = "<group>"; };
+		2DD058AA19ECECA800E58BEB /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +282,7 @@
 		2D829A7619BA5CF0006F76FD /* moonrunner_resources */ = {
 			isa = PBXGroup;
 			children = (
+				2DD058AA19ECECA800E58BEB /* background.png */,
 				2D829A7719BA5CF0006F76FD /* ariel.jpg */,
 				2D829A7819BA5CF0006F76FD /* asteroid_belt.png */,
 				2D829A7919BA5CF0006F76FD /* atmosphere.jpg */,
@@ -413,6 +416,7 @@
 				2D829AC619BA5CF0006F76FD /* spaceship-silver.png in Resources */,
 				2D829AAD19BA5CF0006F76FD /* enceladus.jpg in Resources */,
 				2D829AB119BA5CF0006F76FD /* iapetus.jpg in Resources */,
+				2DD058AB19ECECA800E58BEB /* background.png in Resources */,
 				2D829ACA19BA5CF0006F76FD /* titania.jpg in Resources */,
 				2D829AA219BA5CF0006F76FD /* ariel.jpg in Resources */,
 				2D829AB919BA5CF0006F76FD /* magnetotail.png in Resources */,
